@@ -1,0 +1,74 @@
+.logo{
+	width:100px;
+    display:inline-block;
+}
+
+li{
+	
+	display:inline-block;
+	margin-right: 30px;
+
+}
+nav, .logo {
+	vertical-align: middle;
+}
+nav {
+	display: inline-block;
+	margin-left: 60px;
+}
+.coding {
+	margin-left: 30px;
+}
+.active a{
+	color:red;
+	text-decoration: none;
+}
+
+
+h1 {
+margin-left: 30px;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+p {
+	margin-left: 30px;
+	margin-bottom:20px; 
+
+}
+strong{
+	background-color: blue;
+	color:white;
+	margin-top:20px;
+	font-size: 40px;
+
+}
+div{
+	color:blue;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.design {
+	margin-left: 30px;
+
+}
+.typography {
+	margin-left: 30px;
+	
+}
+@media only screen and (max-width: 600px) {
+	iframe {
+		width: 100%;
+		padding-right: 30px;
+		padding-left: 30px;
+		height: 280px;
+	}
+	.info {
+		width: 210px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	body {
+		width: 100%;
+		padding-left:0px;
+	
+}
